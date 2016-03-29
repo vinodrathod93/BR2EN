@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="s07-Hy-huF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnX-Mp-jPI">
+                                <rect key="frame" x="347" y="122" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" image="polo_dot"/>
+                                <connections>
+                                    <action selector="brailleButtonsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o0f-kc-6zb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJG-O6-U8J">
+                                <rect key="frame" x="231" y="182" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" image="polo_dot"/>
+                                <connections>
+                                    <action selector="brailleButtonsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U7D-Id-t7x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWR-C6-WAa">
+                                <rect key="frame" x="347" y="182" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" image="polo_dot"/>
+                                <connections>
+                                    <action selector="brailleButtonsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g9H-kj-GPP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIx-iq-Jrk">
+                                <rect key="frame" x="231" y="242" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" image="polo_dot"/>
+                                <connections>
+                                    <action selector="brailleButtonsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1BJ-DJ-IuC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4N-7a-Q5V">
+                                <rect key="frame" x="347" y="242" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" image="polo_dot"/>
+                                <connections>
+                                    <action selector="brailleButtonsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Re-gv-FaM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qe-MK-jV2">
+                                <rect key="frame" x="231" y="122" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" image="polo_dot"/>
+                                <connections>
+                                    <action selector="brailleButtonsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sPk-kg-3kl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6g-bx-OFt">
+                                <rect key="frame" x="138" y="359" width="325" height="121"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.95685135690789469" blue="0.77575041118421051" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="121" id="C2V-EN-JCw"/>
+                                    <constraint firstAttribute="width" constant="325" id="SBF-qf-4wy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="60"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on the Braille Character point to convert to English Character." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOT-8B-vpq">
+                                <rect key="frame" x="20" y="28" width="560" height="48.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48.5" id="fpI-9q-ZOr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wJG-O6-U8J" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" multiplier="0.45" id="4PB-FO-skF"/>
+                            <constraint firstItem="dOT-8B-vpq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="9dE-4I-z7Y"/>
+                            <constraint firstItem="dOT-8B-vpq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="AUy-gy-1PV"/>
+                            <constraint firstItem="kWR-C6-WAa" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" multiplier="0.65" id="CCZ-k5-GPk"/>
+                            <constraint firstItem="8Qe-MK-jV2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" multiplier="0.45" id="CkH-O4-7EW"/>
+                            <constraint firstItem="X6g-bx-OFt" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" multiplier="0.8" id="DEN-Ng-byW"/>
+                            <constraint firstItem="CnX-Mp-jPI" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" multiplier="0.2" constant="32" id="Dm4-0r-FmI"/>
+                            <constraint firstItem="kWR-C6-WAa" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" multiplier="0.3" constant="32" id="Go8-eR-CjG"/>
+                            <constraint firstItem="X6g-bx-OFt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P3E-g5-3vz"/>
+                            <constraint firstItem="CnX-Mp-jPI" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" multiplier="0.65" id="X7F-3d-NMl"/>
+                            <constraint firstItem="Z4N-7a-Q5V" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" multiplier="0.65" id="YxF-f9-Dbq"/>
+                            <constraint firstAttribute="trailing" secondItem="dOT-8B-vpq" secondAttribute="trailing" constant="20" id="hvo-6b-Y6V"/>
+                            <constraint firstItem="Z4N-7a-Q5V" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" multiplier="0.4" constant="32" id="iUx-HD-gjm"/>
+                            <constraint firstItem="jIx-iq-Jrk" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" multiplier="0.45" id="lfL-dh-KN8"/>
+                            <constraint firstItem="wJG-O6-U8J" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" multiplier="0.3" constant="32" id="o3v-de-QDb"/>
+                            <constraint firstItem="8Qe-MK-jV2" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" multiplier="0.2" constant="32" id="opQ-eN-9rB"/>
+                            <constraint firstItem="jIx-iq-Jrk" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" multiplier="0.4" constant="32" id="pfT-tq-R67"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="X6g-bx-OFt" id="4sJ-wf-xvV"/>
+                        <outletCollection property="brailleButtons" destination="8Qe-MK-jV2" id="r0c-Nf-La2"/>
+                        <outletCollection property="brailleButtons" destination="CnX-Mp-jPI" id="7NA-6d-CN2"/>
+                        <outletCollection property="brailleButtons" destination="wJG-O6-U8J" id="Z3h-BZ-SNR"/>
+                        <outletCollection property="brailleButtons" destination="kWR-C6-WAa" id="jEG-fI-adf"/>
+                        <outletCollection property="brailleButtons" destination="jIx-iq-Jrk" id="Bej-6b-OmZ"/>
+                        <outletCollection property="brailleButtons" destination="Z4N-7a-Q5V" id="fVb-Ek-JTP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-590" y="49"/>
+        </scene>
+        <!--Word View Controller-->
+        <scene sceneID="2wu-mt-P2R">
+            <objects>
+                <viewController id="s07-Hy-huF" customClass="WordViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JW0-UQ-STx"/>
+                        <viewControllerLayoutGuide type="bottom" id="a8R-pH-2Pz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SCW-Ub-TDB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="f5C-hC-tff">
+                                <rect key="frame" x="20" y="150" width="560" height="210"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="834-oc-Vsy"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="10" id="uWy-4h-si2">
+                                    <size key="itemSize" width="160" height="199.5"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="brailleCollectionViewCell" id="laA-Fu-lO8" customClass="BrailleCollectionViewCell">
+                                        <rect key="frame" x="5" y="5.5" width="160" height="199.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="199.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFB-TA-muI">
+                                                    <rect key="frame" x="23" y="27.5" width="30" height="30"/>
+                                                    <animations/>
+                                                    <state key="normal" image="polo_dot"/>
+                                                    <connections>
+                                                        <action selector="braillePressed:" destination="laA-Fu-lO8" eventType="touchUpInside" id="1Uy-Sr-lTd"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpc-aW-iTM">
+                                                    <rect key="frame" x="99" y="27.5" width="30" height="30"/>
+                                                    <animations/>
+                                                    <state key="normal" image="polo_dot"/>
+                                                    <connections>
+                                                        <action selector="braillePressed:" destination="laA-Fu-lO8" eventType="touchUpInside" id="qtV-76-DUJ"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tsb-Mi-Idw">
+                                                    <rect key="frame" x="23" y="81" width="30" height="30"/>
+                                                    <animations/>
+                                                    <state key="normal" image="polo_dot"/>
+                                                    <connections>
+                                                        <action selector="braillePressed:" destination="laA-Fu-lO8" eventType="touchUpInside" id="fXm-32-akL"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnI-jz-A8s">
+                                                    <rect key="frame" x="99" y="81" width="30" height="30"/>
+                                                    <animations/>
+                                                    <state key="normal" image="polo_dot"/>
+                                                    <connections>
+                                                        <action selector="braillePressed:" destination="laA-Fu-lO8" eventType="touchUpInside" id="GoW-wD-6ly"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFu-oa-rhi">
+                                                    <rect key="frame" x="23" y="133" width="30" height="30"/>
+                                                    <animations/>
+                                                    <state key="normal" image="polo_dot"/>
+                                                    <connections>
+                                                        <action selector="braillePressed:" destination="laA-Fu-lO8" eventType="touchUpInside" id="qM0-Ds-drh"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zh7-aF-CfO">
+                                                    <rect key="frame" x="99" y="133" width="30" height="30"/>
+                                                    <animations/>
+                                                    <state key="normal" image="polo_dot"/>
+                                                    <connections>
+                                                        <action selector="braillePressed:" destination="laA-Fu-lO8" eventType="touchUpInside" id="lAS-d4-nZU"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="nFu-oa-rhi" firstAttribute="trailing" secondItem="laA-Fu-lO8" secondAttribute="trailingMargin" multiplier="0.35" id="0hX-g7-ybb"/>
+                                            <constraint firstItem="zFB-TA-muI" firstAttribute="bottom" secondItem="laA-Fu-lO8" secondAttribute="bottomMargin" multiplier="0.3" id="301-oo-Vm2"/>
+                                            <constraint firstItem="nFu-oa-rhi" firstAttribute="bottom" secondItem="laA-Fu-lO8" secondAttribute="bottomMargin" multiplier="0.85" id="DAI-u7-p6Y"/>
+                                            <constraint firstItem="Dpc-aW-iTM" firstAttribute="bottom" secondItem="laA-Fu-lO8" secondAttribute="bottomMargin" multiplier="0.3" id="FgP-0b-1fm"/>
+                                            <constraint firstItem="Tsb-Mi-Idw" firstAttribute="centerY" secondItem="laA-Fu-lO8" secondAttribute="bottomMargin" multiplier="0.5" id="HQa-PZ-br4"/>
+                                            <constraint firstItem="XnI-jz-A8s" firstAttribute="centerY" secondItem="laA-Fu-lO8" secondAttribute="bottomMargin" multiplier="0.5" id="Qim-mV-b0w"/>
+                                            <constraint firstItem="Zh7-aF-CfO" firstAttribute="trailing" secondItem="laA-Fu-lO8" secondAttribute="trailingMargin" multiplier="0.85" id="gqa-TW-ufC"/>
+                                            <constraint firstItem="XnI-jz-A8s" firstAttribute="trailing" secondItem="laA-Fu-lO8" secondAttribute="trailingMargin" multiplier="0.85" id="hU1-xj-3dD"/>
+                                            <constraint firstItem="Zh7-aF-CfO" firstAttribute="bottom" secondItem="laA-Fu-lO8" secondAttribute="bottomMargin" multiplier="0.85" id="ohk-GW-3Wz"/>
+                                            <constraint firstItem="Dpc-aW-iTM" firstAttribute="trailing" secondItem="laA-Fu-lO8" secondAttribute="trailingMargin" multiplier="0.85" id="q7T-Q2-11S"/>
+                                            <constraint firstItem="zFB-TA-muI" firstAttribute="trailing" secondItem="laA-Fu-lO8" secondAttribute="trailingMargin" multiplier="0.35" id="qC0-xK-vTN"/>
+                                            <constraint firstItem="Tsb-Mi-Idw" firstAttribute="trailing" secondItem="laA-Fu-lO8" secondAttribute="trailingMargin" multiplier="0.35" id="zt7-wc-pZr"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="brailleButtons" destination="zFB-TA-muI" id="fsS-sT-0nz"/>
+                                            <outletCollection property="brailleButtons" destination="Dpc-aW-iTM" id="CFy-GZ-zvG"/>
+                                            <outletCollection property="brailleButtons" destination="Tsb-Mi-Idw" id="dC4-Fg-YKd"/>
+                                            <outletCollection property="brailleButtons" destination="XnI-jz-A8s" id="3Qk-nq-wir"/>
+                                            <outletCollection property="brailleButtons" destination="nFu-oa-rhi" id="AIQ-qC-M4l"/>
+                                            <outletCollection property="brailleButtons" destination="Zh7-aF-CfO" id="6D5-vX-F2j"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="s07-Hy-huF" id="qhO-2P-K8W"/>
+                                    <outlet property="delegate" destination="s07-Hy-huF" id="QFr-v5-AYo"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbJ-Ag-DdM">
+                                <rect key="frame" x="20" y="368" width="560" height="212"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.95685135690000001" blue="0.77575041119999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Medium" family="Avenir Next Condensed" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on the Braille Character point to convert to English Character." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUp-Bh-NwR">
+                                <rect key="frame" x="20" y="20" width="560" height="122"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TIt-BL-3IG">
+                                <rect key="frame" x="472" y="111" width="51" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="numberToggleSwitched:" destination="s07-Hy-huF" eventType="valueChanged" id="fq2-Ai-S3d"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECF-qL-f32">
+                                <rect key="frame" x="529" y="116" width="26" height="24"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f5C-hC-tff" firstAttribute="centerY" secondItem="a8R-pH-2Pz" secondAttribute="top" multiplier="0.5" constant="-45" id="ApK-Ve-9dr"/>
+                            <constraint firstItem="mUp-Bh-NwR" firstAttribute="top" secondItem="JW0-UQ-STx" secondAttribute="bottom" id="SWp-03-IPS"/>
+                            <constraint firstAttribute="trailing" secondItem="f5C-hC-tff" secondAttribute="trailing" constant="20" id="SXK-y5-v8Y"/>
+                            <constraint firstItem="f5C-hC-tff" firstAttribute="top" secondItem="TIt-BL-3IG" secondAttribute="bottom" constant="8" id="Y5W-tR-Wo3"/>
+                            <constraint firstAttribute="trailing" secondItem="mUp-Bh-NwR" secondAttribute="trailing" constant="20" id="YT3-xg-jhR"/>
+                            <constraint firstItem="f5C-hC-tff" firstAttribute="top" secondItem="mUp-Bh-NwR" secondAttribute="bottom" constant="8" id="ZKq-mT-v6a"/>
+                            <constraint firstAttribute="trailing" secondItem="EbJ-Ag-DdM" secondAttribute="trailing" constant="20" id="bl7-O8-r1s"/>
+                            <constraint firstItem="EbJ-Ag-DdM" firstAttribute="leading" secondItem="SCW-Ub-TDB" secondAttribute="leading" constant="20" id="hsB-3C-7ib"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ECF-qL-f32" secondAttribute="trailing" constant="25" id="jiI-5V-g9U"/>
+                            <constraint firstItem="f5C-hC-tff" firstAttribute="top" secondItem="ECF-qL-f32" secondAttribute="bottom" constant="10" id="k69-J2-WPo"/>
+                            <constraint firstItem="mUp-Bh-NwR" firstAttribute="leading" secondItem="SCW-Ub-TDB" secondAttribute="leading" constant="20" id="vc9-CG-fZk"/>
+                            <constraint firstItem="ECF-qL-f32" firstAttribute="leading" secondItem="TIt-BL-3IG" secondAttribute="trailing" constant="8" id="veh-1D-Nth"/>
+                            <constraint firstItem="EbJ-Ag-DdM" firstAttribute="top" secondItem="f5C-hC-tff" secondAttribute="bottom" constant="8" id="vif-a7-EIb"/>
+                            <constraint firstItem="a8R-pH-2Pz" firstAttribute="top" secondItem="EbJ-Ag-DdM" secondAttribute="bottom" constant="20" id="vmj-jz-iEG"/>
+                            <constraint firstItem="f5C-hC-tff" firstAttribute="leading" secondItem="SCW-Ub-TDB" secondAttribute="leading" constant="20" id="wPm-me-1sn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="f5C-hC-tff" id="Een-Kf-F3P"/>
+                        <outlet property="instructionLabel" destination="mUp-Bh-NwR" id="9o9-hb-rmb"/>
+                        <outlet property="numberSwitch" destination="TIt-BL-3IG" id="P7f-rU-BWJ"/>
+                        <outlet property="resultLabel" destination="EbJ-Ag-DdM" id="tsQ-iX-PSO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hsw-xb-cOe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="-6"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="polo_dot" width="30" height="30"/>
+    </resources>
+</document>

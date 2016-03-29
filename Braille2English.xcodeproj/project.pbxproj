@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		677173E31C909ABE00AF1202 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 677173E21C909ABE00AF1202 /* main.m */; };
+		677173E61C909ABE00AF1202 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 677173E51C909ABE00AF1202 /* AppDelegate.m */; };
+		677173E91C909ABE00AF1202 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677173E81C909ABE00AF1202 /* ViewController.m */; };
+		677173EC1C909ABE00AF1202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677173EA1C909ABE00AF1202 /* Main.storyboard */; };
+		677173EE1C909ABF00AF1202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677173ED1C909ABF00AF1202 /* Assets.xcassets */; };
+		677173F11C909ABF00AF1202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677173EF1C909ABF00AF1202 /* LaunchScreen.storyboard */; };
+		677173FC1C909ABF00AF1202 /* Braille2EnglishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677173FB1C909ABF00AF1202 /* Braille2EnglishTests.m */; };
+		677174071C909ABF00AF1202 /* Braille2EnglishUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677174061C909ABF00AF1202 /* Braille2EnglishUITests.m */; };
+		679CB9571C956A9D0003ED63 /* WordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679CB9561C956A9D0003ED63 /* WordViewController.m */; };
+		679CB95A1C956B570003ED63 /* BrailleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 679CB9591C956B570003ED63 /* BrailleCollectionViewCell.m */; };
+		67E028C91C935DAF000230B6 /* BrailleCharModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E028C81C935DAF000230B6 /* BrailleCharModel.m */; };
+		67EB395F1CA818F700F7E763 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EB395E1CA818F700F7E763 /* opencv2.framework */; };
+		67EB39611CA8192600F7E763 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EB39601CA8192600F7E763 /* AVFoundation.framework */; };
+		67EB39631CA8192C00F7E763 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EB39621CA8192C00F7E763 /* AssetsLibrary.framework */; };
+		67EB39651CA8193900F7E763 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EB39641CA8193900F7E763 /* CoreMedia.framework */; };
+		67EB396C1CA81A0000F7E763 /* ScanViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67EB396B1CA81A0000F7E763 /* ScanViewController.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		677173F81C909ABF00AF1202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 677173D61C909ABE00AF1202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 677173DD1C909ABE00AF1202;
+			remoteInfo = Braille2English;
+		};
+		677174031C909ABF00AF1202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 677173D61C909ABE00AF1202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 677173DD1C909ABE00AF1202;
+			remoteInfo = Braille2English;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		677173DE1C909ABE00AF1202 /* Braille2English.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Braille2English.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		677173E21C909ABE00AF1202 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		677173E41C909ABE00AF1202 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		677173E51C909ABE00AF1202 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		677173E71C909ABE00AF1202 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		677173E81C909ABE00AF1202 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		677173EB1C909ABE00AF1202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		677173ED1C909ABF00AF1202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		677173F01C909ABF00AF1202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		677173F21C909ABF00AF1202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677173F71C909ABF00AF1202 /* Braille2EnglishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Braille2EnglishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		677173FB1C909ABF00AF1202 /* Braille2EnglishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Braille2EnglishTests.m; sourceTree = "<group>"; };
+		677173FD1C909ABF00AF1202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677174021C909ABF00AF1202 /* Braille2EnglishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Braille2EnglishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		677174061C909ABF00AF1202 /* Braille2EnglishUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Braille2EnglishUITests.m; sourceTree = "<group>"; };
+		677174081C909ABF00AF1202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		679CB9551C956A9D0003ED63 /* WordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordViewController.h; sourceTree = "<group>"; };
+		679CB9561C956A9D0003ED63 /* WordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordViewController.m; sourceTree = "<group>"; };
+		679CB9581C956B570003ED63 /* BrailleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrailleCollectionViewCell.h; sourceTree = "<group>"; };
+		679CB9591C956B570003ED63 /* BrailleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrailleCollectionViewCell.m; sourceTree = "<group>"; };
+		67E028C71C935DAF000230B6 /* BrailleCharModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrailleCharModel.h; sourceTree = "<group>"; };
+		67E028C81C935DAF000230B6 /* BrailleCharModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrailleCharModel.m; sourceTree = "<group>"; };
+		67EB395D1CA818CD00F7E763 /* Braille2EnglishPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Braille2EnglishPrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		67EB395E1CA818F700F7E763 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		67EB39601CA8192600F7E763 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		67EB39621CA8192C00F7E763 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		67EB39641CA8193900F7E763 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		67EB396A1CA81A0000F7E763 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		67EB396B1CA81A0000F7E763 /* ScanViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScanViewController.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		677173DB1C909ABE00AF1202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EB39651CA8193900F7E763 /* CoreMedia.framework in Frameworks */,
+				67EB39631CA8192C00F7E763 /* AssetsLibrary.framework in Frameworks */,
+				67EB39611CA8192600F7E763 /* AVFoundation.framework in Frameworks */,
+				67EB395F1CA818F700F7E763 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677173F41C909ABF00AF1202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677173FF1C909ABF00AF1202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		677173D51C909ABE00AF1202 = {
+			isa = PBXGroup;
+			children = (
+				677173E01C909ABE00AF1202 /* Braille2English */,
+				677173FA1C909ABF00AF1202 /* Braille2EnglishTests */,
+				677174051C909ABF00AF1202 /* Braille2EnglishUITests */,
+				677173DF1C909ABE00AF1202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		677173DF1C909ABE00AF1202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				677173DE1C909ABE00AF1202 /* Braille2English.app */,
+				677173F71C909ABF00AF1202 /* Braille2EnglishTests.xctest */,
+				677174021C909ABF00AF1202 /* Braille2EnglishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		677173E01C909ABE00AF1202 /* Braille2English */ = {
+			isa = PBXGroup;
+			children = (
+				677173E41C909ABE00AF1202 /* AppDelegate.h */,
+				677173E51C909ABE00AF1202 /* AppDelegate.m */,
+				67EB39681CA8196100F7E763 /* Custom View */,
+				67EB39671CA8195700F7E763 /* Model */,
+				67EB39691CA8197800F7E763 /* Controller */,
+				677173EA1C909ABE00AF1202 /* Main.storyboard */,
+				677173ED1C909ABF00AF1202 /* Assets.xcassets */,
+				677173EF1C909ABF00AF1202 /* LaunchScreen.storyboard */,
+				677173F21C909ABF00AF1202 /* Info.plist */,
+				67EB39661CA8194400F7E763 /* Frameworks */,
+				677173E11C909ABE00AF1202 /* Supporting Files */,
+			);
+			path = Braille2English;
+			sourceTree = "<group>";
+		};
+		677173E11C909ABE00AF1202 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67EB395D1CA818CD00F7E763 /* Braille2EnglishPrefixHeader.pch */,
+				677173E21C909ABE00AF1202 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		677173FA1C909ABF00AF1202 /* Braille2EnglishTests */ = {
+			isa = PBXGroup;
+			children = (
+				677173FB1C909ABF00AF1202 /* Braille2EnglishTests.m */,
+				677173FD1C909ABF00AF1202 /* Info.plist */,
+			);
+			path = Braille2EnglishTests;
+			sourceTree = "<group>";
+		};
+		677174051C909ABF00AF1202 /* Braille2EnglishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				677174061C909ABF00AF1202 /* Braille2EnglishUITests.m */,
+				677174081C909ABF00AF1202 /* Info.plist */,
+			);
+			path = Braille2EnglishUITests;
+			sourceTree = "<group>";
+		};
+		67EB39661CA8194400F7E763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67EB39641CA8193900F7E763 /* CoreMedia.framework */,
+				67EB39621CA8192C00F7E763 /* AssetsLibrary.framework */,
+				67EB39601CA8192600F7E763 /* AVFoundation.framework */,
+				67EB395E1CA818F700F7E763 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67EB39671CA8195700F7E763 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67E028C71C935DAF000230B6 /* BrailleCharModel.h */,
+				67E028C81C935DAF000230B6 /* BrailleCharModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		67EB39681CA8196100F7E763 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				679CB9581C956B570003ED63 /* BrailleCollectionViewCell.h */,
+				679CB9591C956B570003ED63 /* BrailleCollectionViewCell.m */,
+			);
+			name = "Custom View";
+			sourceTree = "<group>";
+		};
+		67EB39691CA8197800F7E763 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				677173E71C909ABE00AF1202 /* ViewController.h */,
+				677173E81C909ABE00AF1202 /* ViewController.m */,
+				679CB9551C956A9D0003ED63 /* WordViewController.h */,
+				679CB9561C956A9D0003ED63 /* WordViewController.m */,
+				67EB396A1CA81A0000F7E763 /* ScanViewController.h */,
+				67EB396B1CA81A0000F7E763 /* ScanViewController.mm */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		677173DD1C909ABE00AF1202 /* Braille2English */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6771740B1C909ABF00AF1202 /* Build configuration list for PBXNativeTarget "Braille2English" */;
+			buildPhases = (
+				677173DA1C909ABE00AF1202 /* Sources */,
+				677173DB1C909ABE00AF1202 /* Frameworks */,
+				677173DC1C909ABE00AF1202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Braille2English;
+			productName = Braille2English;
+			productReference = 677173DE1C909ABE00AF1202 /* Braille2English.app */;
+			productType = "com.apple.product-type.application";
+		};
+		677173F61C909ABF00AF1202 /* Braille2EnglishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6771740E1C909ABF00AF1202 /* Build configuration list for PBXNativeTarget "Braille2EnglishTests" */;
+			buildPhases = (
+				677173F31C909ABF00AF1202 /* Sources */,
+				677173F41C909ABF00AF1202 /* Frameworks */,
+				677173F51C909ABF00AF1202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677173F91C909ABF00AF1202 /* PBXTargetDependency */,
+			);
+			name = Braille2EnglishTests;
+			productName = Braille2EnglishTests;
+			productReference = 677173F71C909ABF00AF1202 /* Braille2EnglishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		677174011C909ABF00AF1202 /* Braille2EnglishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677174111C909ABF00AF1202 /* Build configuration list for PBXNativeTarget "Braille2EnglishUITests" */;
+			buildPhases = (
+				677173FE1C909ABF00AF1202 /* Sources */,
+				677173FF1C909ABF00AF1202 /* Frameworks */,
+				677174001C909ABF00AF1202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677174041C909ABF00AF1202 /* PBXTargetDependency */,
+			);
+			name = Braille2EnglishUITests;
+			productName = Braille2EnglishUITests;
+			productReference = 677174021C909ABF00AF1202 /* Braille2EnglishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		677173D61C909ABE00AF1202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Vinod Rathod";
+				TargetAttributes = {
+					677173DD1C909ABE00AF1202 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					677173F61C909ABF00AF1202 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 677173DD1C909ABE00AF1202;
+					};
+					677174011C909ABF00AF1202 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 677173DD1C909ABE00AF1202;
+					};
+				};
+			};
+			buildConfigurationList = 677173D91C909ABE00AF1202 /* Build configuration list for PBXProject "Braille2English" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 677173D51C909ABE00AF1202;
+			productRefGroup = 677173DF1C909ABE00AF1202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				677173DD1C909ABE00AF1202 /* Braille2English */,
+				677173F61C909ABF00AF1202 /* Braille2EnglishTests */,
+				677174011C909ABF00AF1202 /* Braille2EnglishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		677173DC1C909ABE00AF1202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677173F11C909ABF00AF1202 /* LaunchScreen.storyboard in Resources */,
+				677173EE1C909ABF00AF1202 /* Assets.xcassets in Resources */,
+				677173EC1C909ABE00AF1202 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677173F51C909ABF00AF1202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677174001C909ABF00AF1202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		677173DA1C909ABE00AF1202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679CB9571C956A9D0003ED63 /* WordViewController.m in Sources */,
+				677173E91C909ABE00AF1202 /* ViewController.m in Sources */,
+				679CB95A1C956B570003ED63 /* BrailleCollectionViewCell.m in Sources */,
+				677173E61C909ABE00AF1202 /* AppDelegate.m in Sources */,
+				67EB396C1CA81A0000F7E763 /* ScanViewController.mm in Sources */,
+				677173E31C909ABE00AF1202 /* main.m in Sources */,
+				67E028C91C935DAF000230B6 /* BrailleCharModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677173F31C909ABF00AF1202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677173FC1C909ABF00AF1202 /* Braille2EnglishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677173FE1C909ABF00AF1202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677174071C909ABF00AF1202 /* Braille2EnglishUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		677173F91C909ABF00AF1202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 677173DD1C909ABE00AF1202 /* Braille2English */;
+			targetProxy = 677173F81C909ABF00AF1202 /* PBXContainerItemProxy */;
+		};
+		677174041C909ABF00AF1202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 677173DD1C909ABE00AF1202 /* Braille2English */;
+			targetProxy = 677174031C909ABF00AF1202 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		677173EA1C909ABE00AF1202 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				677173EB1C909ABE00AF1202 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		677173EF1C909ABF00AF1202 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				677173F01C909ABF00AF1202 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		677174091C909ABF00AF1202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6771740A1C909ABF00AF1202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6771740C1C909ABF00AF1202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Braille2English",
+				);
+				GCC_PREFIX_HEADER = Braille2EnglishPrefixHeader.pch;
+				INFOPLIST_FILE = Braille2English/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinodrathod.Braille2English;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6771740D1C909ABF00AF1202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Braille2English",
+				);
+				GCC_PREFIX_HEADER = Braille2EnglishPrefixHeader.pch;
+				INFOPLIST_FILE = Braille2English/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinodrathod.Braille2English;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6771740F1C909ABF00AF1202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Braille2EnglishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinodrathod.Braille2EnglishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Braille2English.app/Braille2English";
+			};
+			name = Debug;
+		};
+		677174101C909ABF00AF1202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Braille2EnglishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinodrathod.Braille2EnglishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Braille2English.app/Braille2English";
+			};
+			name = Release;
+		};
+		677174121C909ABF00AF1202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Braille2EnglishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinodrathod.Braille2EnglishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Braille2English;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		677174131C909ABF00AF1202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Braille2EnglishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinodrathod.Braille2EnglishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Braille2English;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		677173D91C909ABE00AF1202 /* Build configuration list for PBXProject "Braille2English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677174091C909ABF00AF1202 /* Debug */,
+				6771740A1C909ABF00AF1202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6771740B1C909ABF00AF1202 /* Build configuration list for PBXNativeTarget "Braille2English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6771740C1C909ABF00AF1202 /* Debug */,
+				6771740D1C909ABF00AF1202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6771740E1C909ABF00AF1202 /* Build configuration list for PBXNativeTarget "Braille2EnglishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6771740F1C909ABF00AF1202 /* Debug */,
+				677174101C909ABF00AF1202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677174111C909ABF00AF1202 /* Build configuration list for PBXNativeTarget "Braille2EnglishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677174121C909ABF00AF1202 /* Debug */,
+				677174131C909ABF00AF1202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 677173D61C909ABE00AF1202 /* Project object */;
+}
