@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3FCC8A170699B6067C6804183F2E6F713DDE5186",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ABF5AD8548550C36FA23CC30FB5A464B92D93869" : 0,
+    "3FCC8A170699B6067C6804183F2E6F713DDE5186" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A1F226C4-6EB1-4A39-822F-9D38782AF646",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ABF5AD8548550C36FA23CC30FB5A464B92D93869" : "",
+    "3FCC8A170699B6067C6804183F2E6F713DDE5186" : "Braille2English\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Braille2English",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Braille2English.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vinodrathod93\/BR2EN.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3FCC8A170699B6067C6804183F2E6F713DDE5186"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vinodrathod93\/BR2EN.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABF5AD8548550C36FA23CC30FB5A464B92D93869"
+    }
+  ]
+}

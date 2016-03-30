@@ -15,10 +15,18 @@
 		677173F11C909ABF00AF1202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677173EF1C909ABF00AF1202 /* LaunchScreen.storyboard */; };
 		677173FC1C909ABF00AF1202 /* Braille2EnglishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677173FB1C909ABF00AF1202 /* Braille2EnglishTests.m */; };
 		677174071C909ABF00AF1202 /* Braille2EnglishUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677174061C909ABF00AF1202 /* Braille2EnglishUITests.m */; };
+		6798CF8A1CAC468800A57F9F /* Braille V Letter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6798CF891CAC468700A57F9F /* Braille V Letter.png */; };
+		6798CF951CAC787600A57F9F /* MSERManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6798CF8D1CAC787600A57F9F /* MSERManager.mm */; };
+		6798CF961CAC787600A57F9F /* MLManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6798CF8E1CAC787600A57F9F /* MLManager.mm */; };
+		6798CF971CAC787600A57F9F /* GeometryUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6798CF8F1CAC787600A57F9F /* GeometryUtil.mm */; };
+		6798CF981CAC787600A57F9F /* MSERFeature.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6798CF901CAC787600A57F9F /* MSERFeature.mm */; };
+		6798CF9E1CAC78A300A57F9F /* ImageUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6798CF9A1CAC78A300A57F9F /* ImageUtils.mm */; };
+		6798CF9F1CAC78A300A57F9F /* FPS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6798CF9C1CAC78A300A57F9F /* FPS.mm */; };
+		6798CFA31CAC78BA00A57F9F /* RoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6798CFA11CAC78BA00A57F9F /* RoundButton.m */; };
+		6798CFA51CAC835100A57F9F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6798CFA41CAC835100A57F9F /* opencv2.framework */; };
 		679CB9571C956A9D0003ED63 /* WordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 679CB9561C956A9D0003ED63 /* WordViewController.m */; };
 		679CB95A1C956B570003ED63 /* BrailleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 679CB9591C956B570003ED63 /* BrailleCollectionViewCell.m */; };
 		67E028C91C935DAF000230B6 /* BrailleCharModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E028C81C935DAF000230B6 /* BrailleCharModel.m */; };
-		67EB395F1CA818F700F7E763 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EB395E1CA818F700F7E763 /* opencv2.framework */; };
 		67EB39611CA8192600F7E763 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EB39601CA8192600F7E763 /* AVFoundation.framework */; };
 		67EB39631CA8192C00F7E763 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EB39621CA8192C00F7E763 /* AssetsLibrary.framework */; };
 		67EB39651CA8193900F7E763 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EB39641CA8193900F7E763 /* CoreMedia.framework */; };
@@ -59,6 +67,22 @@
 		677174021C909ABF00AF1202 /* Braille2EnglishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Braille2EnglishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		677174061C909ABF00AF1202 /* Braille2EnglishUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Braille2EnglishUITests.m; sourceTree = "<group>"; };
 		677174081C909ABF00AF1202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6798CF891CAC468700A57F9F /* Braille V Letter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Braille V Letter.png"; path = "../../../../../Desktop/Braille V Letter.png"; sourceTree = "<group>"; };
+		6798CF8D1CAC787600A57F9F /* MSERManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSERManager.mm; sourceTree = "<group>"; };
+		6798CF8E1CAC787600A57F9F /* MLManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MLManager.mm; sourceTree = "<group>"; };
+		6798CF8F1CAC787600A57F9F /* GeometryUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GeometryUtil.mm; sourceTree = "<group>"; };
+		6798CF901CAC787600A57F9F /* MSERFeature.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MSERFeature.mm; sourceTree = "<group>"; };
+		6798CF911CAC787600A57F9F /* MLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLManager.h; sourceTree = "<group>"; };
+		6798CF921CAC787600A57F9F /* GeometryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryUtil.h; sourceTree = "<group>"; };
+		6798CF931CAC787600A57F9F /* MSERManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSERManager.h; sourceTree = "<group>"; };
+		6798CF941CAC787600A57F9F /* MSERFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSERFeature.h; sourceTree = "<group>"; };
+		6798CF9A1CAC78A300A57F9F /* ImageUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageUtils.mm; sourceTree = "<group>"; };
+		6798CF9B1CAC78A300A57F9F /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		6798CF9C1CAC78A300A57F9F /* FPS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FPS.mm; sourceTree = "<group>"; };
+		6798CF9D1CAC78A300A57F9F /* FPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPS.h; sourceTree = "<group>"; };
+		6798CFA11CAC78BA00A57F9F /* RoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundButton.m; sourceTree = "<group>"; };
+		6798CFA21CAC78BA00A57F9F /* RoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundButton.h; sourceTree = "<group>"; };
+		6798CFA41CAC835100A57F9F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		679CB9551C956A9D0003ED63 /* WordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordViewController.h; sourceTree = "<group>"; };
 		679CB9561C956A9D0003ED63 /* WordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordViewController.m; sourceTree = "<group>"; };
 		679CB9581C956B570003ED63 /* BrailleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrailleCollectionViewCell.h; sourceTree = "<group>"; };
@@ -66,7 +90,6 @@
 		67E028C71C935DAF000230B6 /* BrailleCharModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrailleCharModel.h; sourceTree = "<group>"; };
 		67E028C81C935DAF000230B6 /* BrailleCharModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrailleCharModel.m; sourceTree = "<group>"; };
 		67EB395D1CA818CD00F7E763 /* Braille2EnglishPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Braille2EnglishPrefixHeader.pch; sourceTree = SOURCE_ROOT; };
-		67EB395E1CA818F700F7E763 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		67EB39601CA8192600F7E763 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		67EB39621CA8192C00F7E763 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		67EB39641CA8193900F7E763 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -81,8 +104,8 @@
 			files = (
 				67EB39651CA8193900F7E763 /* CoreMedia.framework in Frameworks */,
 				67EB39631CA8192C00F7E763 /* AssetsLibrary.framework in Frameworks */,
+				6798CFA51CAC835100A57F9F /* opencv2.framework in Frameworks */,
 				67EB39611CA8192600F7E763 /* AVFoundation.framework in Frameworks */,
-				67EB395F1CA818F700F7E763 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +151,10 @@
 			children = (
 				677173E41C909ABE00AF1202 /* AppDelegate.h */,
 				677173E51C909ABE00AF1202 /* AppDelegate.m */,
+				6798CFA11CAC78BA00A57F9F /* RoundButton.m */,
+				6798CFA21CAC78BA00A57F9F /* RoundButton.h */,
+				6798CFA01CAC78A800A57F9F /* Utils */,
+				6798CF991CAC787B00A57F9F /* Algorithm */,
 				67EB39681CA8196100F7E763 /* Custom View */,
 				67EB39671CA8195700F7E763 /* Model */,
 				67EB39691CA8197800F7E763 /* Controller */,
@@ -168,13 +195,39 @@
 			path = Braille2EnglishUITests;
 			sourceTree = "<group>";
 		};
+		6798CF991CAC787B00A57F9F /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				6798CF931CAC787600A57F9F /* MSERManager.h */,
+				6798CF8D1CAC787600A57F9F /* MSERManager.mm */,
+				6798CF911CAC787600A57F9F /* MLManager.h */,
+				6798CF8E1CAC787600A57F9F /* MLManager.mm */,
+				6798CF921CAC787600A57F9F /* GeometryUtil.h */,
+				6798CF8F1CAC787600A57F9F /* GeometryUtil.mm */,
+				6798CF941CAC787600A57F9F /* MSERFeature.h */,
+				6798CF901CAC787600A57F9F /* MSERFeature.mm */,
+			);
+			name = Algorithm;
+			sourceTree = "<group>";
+		};
+		6798CFA01CAC78A800A57F9F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6798CF9A1CAC78A300A57F9F /* ImageUtils.mm */,
+				6798CF9B1CAC78A300A57F9F /* ImageUtils.h */,
+				6798CF9C1CAC78A300A57F9F /* FPS.mm */,
+				6798CF9D1CAC78A300A57F9F /* FPS.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		67EB39661CA8194400F7E763 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6798CFA41CAC835100A57F9F /* opencv2.framework */,
 				67EB39641CA8193900F7E763 /* CoreMedia.framework */,
 				67EB39621CA8192C00F7E763 /* AssetsLibrary.framework */,
 				67EB39601CA8192600F7E763 /* AVFoundation.framework */,
-				67EB395E1CA818F700F7E763 /* opencv2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -206,6 +259,7 @@
 				679CB9561C956A9D0003ED63 /* WordViewController.m */,
 				67EB396A1CA81A0000F7E763 /* ScanViewController.h */,
 				67EB396B1CA81A0000F7E763 /* ScanViewController.mm */,
+				6798CF891CAC468700A57F9F /* Braille V Letter.png */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -313,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6798CF8A1CAC468800A57F9F /* Braille V Letter.png in Resources */,
 				677173F11C909ABF00AF1202 /* LaunchScreen.storyboard in Resources */,
 				677173EE1C909ABF00AF1202 /* Assets.xcassets in Resources */,
 				677173EC1C909ABE00AF1202 /* Main.storyboard in Resources */,
@@ -340,11 +395,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6798CF9F1CAC78A300A57F9F /* FPS.mm in Sources */,
+				6798CF951CAC787600A57F9F /* MSERManager.mm in Sources */,
+				6798CF971CAC787600A57F9F /* GeometryUtil.mm in Sources */,
+				6798CF961CAC787600A57F9F /* MLManager.mm in Sources */,
 				679CB9571C956A9D0003ED63 /* WordViewController.m in Sources */,
 				677173E91C909ABE00AF1202 /* ViewController.m in Sources */,
 				679CB95A1C956B570003ED63 /* BrailleCollectionViewCell.m in Sources */,
+				6798CF981CAC787600A57F9F /* MSERFeature.mm in Sources */,
 				677173E61C909ABE00AF1202 /* AppDelegate.m in Sources */,
 				67EB396C1CA81A0000F7E763 /* ScanViewController.mm in Sources */,
+				6798CFA31CAC78BA00A57F9F /* RoundButton.m in Sources */,
+				6798CF9E1CAC78A300A57F9F /* ImageUtils.mm in Sources */,
 				677173E31C909ABE00AF1202 /* main.m in Sources */,
 				67E028C91C935DAF000230B6 /* BrailleCharModel.m in Sources */,
 			);
@@ -485,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Braille2English",
@@ -501,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Braille2English",

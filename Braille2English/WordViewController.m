@@ -8,6 +8,7 @@
 
 #import "WordViewController.h"
 #import "BrailleCharModel.h"
+#import "ScanViewController.h"
 
 @interface WordViewController ()
 {
@@ -42,11 +43,24 @@
     
     NSLog(@"String length %lu", self.resultLabel.text.length);
     
+    
+    // Scanning Button
+    
+    [self.scanningTapped addTarget:self action:@selector(presentScanningView:) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(void)presentScanningView:(UIButton *)sender {
+    
+    ScanViewController *scanVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ScanningVC"];
+    
+    [self presentViewController:scanVC animated:YES completion:nil];
 }
 
 

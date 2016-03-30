@@ -17,4 +17,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 - (IBAction)numberToggleSwitched:(id)sender;
 @property (weak, nonatomic) IBOutlet UISwitch *numberSwitch;
+@property (weak, nonatomic) IBOutlet UIButton *scanningTapped;
 @end
